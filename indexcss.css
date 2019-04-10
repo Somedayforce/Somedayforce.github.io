@@ -1,4 +1,6 @@
 body {
+background-image: "Superb-modern-interior-design-HD-wallpapers.jpg"; /* Путь к фоновому изображению */
+background-color: #000000; /* Цвет фона */
 margin: 0;
 padding: 0;
 }
