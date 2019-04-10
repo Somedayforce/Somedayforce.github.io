@@ -41,7 +41,8 @@ caption{
            }
 
   body {
-  	background-image: url(maxresdefault.jpg);
+  	background-image: "Superb-modern-interior-design-HD-wallpapers.jpg"; /* Путь к фоновому изображению */
+	background-color: #000000; /* Цвет фона */
   }
 
   p {
