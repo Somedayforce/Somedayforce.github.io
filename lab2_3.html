@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title> Script_01 </title>
+ <meta charset="utf-8">
+<style type="text/css">
+	.nav {
+	height: 50px;
+background: #00F260;
+}
+
+.navigate_Li li{
+
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 5px 4.8%;
+}
+</style>
+<script language="JavaScript">
+var date = new Date();
+var theHour = date.getHours();
+
+   function ClickEvent() {
+       var name = "Сеник А.П."
+       if (name !=  document.getElementById("someint").value)
+    {	
+   		alert("Не склав ");
+		document.body.style.backgroundColor = "red";
+    }
+    else 
+    {
+    	alert("Можливо, все буде добре");
+		document.body.style.backgroundColor = "green";
+    }
+}
+</script>
+</head>
+<body>
+		<div class="nav">
+		<nav>
+			<ul  class="navigate_Li">
+			<li> <a href="index.html"> lab1 </a> </li>
+			<li> <a href="lab2_1.html"> lab2_1 </a> </li>
+ 			<li> <a href="lab2_2.html"> lab2_2 </a> </li>
+ 			<li> <a href="lab2_3.html"> lab2_3 </a> </li>
+ 			<li> <a href="lab2_4.html"> lab2_4 </a> </li>
+ 			<li> <a href="lab2_5.html"> lab2_5 </a> </li>
+ 			<li> <a href="lab2_6.html"> lab2_6 </a> </li>
+			</ul>
+		</nav>
+	</div>
+	<form>
+        <label> Прізвище та ініціали викладача?</label>
+<input type="text" name="someint" id="someint">
+<input type="button" onclick="ClickEvent()" value="Enter"/>
+</form>
+</body>
+</html>

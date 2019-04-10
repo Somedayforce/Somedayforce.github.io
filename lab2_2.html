@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Script_01 </title>
+<style type="text/css">
+	.nav {
+	height: 50px;
+background: #00F260;
+}
+
+.navigate_Li li{
+
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 5px 4.8%;
+}
+</style>
+</head>
+<body>
+		<div class="nav">
+		<nav>
+			<ul  class="navigate_Li">
+			<li> <a href="index.html"> lab1 </a> </li>
+			<li> <a href="lab2_1.html"> lab2_1 </a> </li>
+ 			<li> <a href="lab2_2.html"> lab2_2 </a> </li>
+ 			<li> <a href="lab2_3.html"> lab2_3 </a> </li>
+ 			<li> <a href="lab2_4.html"> lab2_4 </a> </li>
+ 			<li> <a href="lab2_5.html"> lab2_5 </a> </li>
+ 			<li> <a href="lab2_6.html"> lab2_6 </a> </li>
+			</ul>
+		</nav>
+	</div>
+
+
+<script language="JavaScript">
+    function getSumUsingWhile(max) {
+        var sum = 0
+        while (sum < max) {
+            sum = sum + 1;
+            if (sum > 15) break;
+            else continue;
+        }
+
+        alert(sum)
+    }
+
+    function getSumUsingFor(max) {
+        var sum = 0
+        for (i = 0; i < max; i++)
+            alert(i)
+    }
+
+    getSumUsingWhile(10)
+    getSumUsingFor(3)
+/*function printNumbersInterval( i ) {
+  var timerId = setInterval(function() {
+    document.writeln("<br>" + i )
+    if (i == 20) clearInterval(timerId);
+  }, 100);
+}*/
+</script>
+</body>
+</html>
