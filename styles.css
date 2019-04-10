@@ -1,0 +1,68 @@
+ table, caption {
+
+        cellspacing:2;
+       
+        
+        font-family: "heebo", cursive;
+       }
+
+caption{
+	font-size: 30px;
+}
+
+ table , th, td{
+       	border: 2px solid orange;
+       	border-color: white;
+       }
+ table{
+       width: 700px;
+
+ }
+
+  th{
+  	text-align: left;
+  }
+
+ td, th {
+           align: left;
+           padding: 5px;
+           color: white;
+           }
+
+ div    {
+    	align:justify;
+    	position: center;
+    	width:700px;
+    	background-image: url(199042.jpg);
+    	margin: auto;
+        margin-top: 0;
+        padding: 10px;
+
+           }
+
+  body {
+  	background-image: url(maxresdefault.jpg);
+  }
+
+  p {
+  	color: White;
+  	font-size: 25px;
+  	font-weight: bold;
+  	text-align: justify;
+  	font-family: "heebo", cursive;
+  	
+  }
+
+  h1{
+  	text-align: center;
+  	color: Black;
+  	font-weight: 40px;
+  	font-family: "heebo", cursive;
+  }
+
+ label{
+    color: red;
+    font-weight: 40px;
+    font-family: "heebo", cursive;
+
+ }
