@@ -5,28 +5,71 @@
 		 <meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="indexcss.css">
 		<style >
-		background-image: "Superb-modern-interior-design-HD-wallpapers.jpg"; /* Путь к фоновому изображению */
-		background-color: rgba(195, 195, 195, 0.5) !important;	
+		
+		a { 
+			color: #cccccc;
+			font-size: 15px;
+			letter-spacing: 0px;
+			line-height: 1.5;
+			text-decoration:none;
+			text-align: 
+		}		
 		</style>
+		<script>
+		var x = 2;
+		function wait(ms){
+			var start = new Date().getTime();
+			var end = start;
+			while(end < start + ms) {
+				end = new Date().getTime();
+			}
+		}
+		function build(x){
+		switch(x){
+		case 1:document.getElementById('myImage').src='steps/1.png';break;
+		case 2:document.getElementById('myImage').src='steps/2.png';break;
+		case 3:document.getElementById('myImage').src='steps/3.png';break;
+		case 4:document.getElementById('myImage').src='steps/4.png';break;
+		case 5:document.getElementById('myImage').src='steps/5.png';break;
+		case 6:document.getElementById('myImage').src='steps/6.png';break;
+		case 7:document.getElementById('myImage').src='steps/7.png';break;
+		case 8:document.getElementById('myImage').src='steps/8.png';break;
+		case 9:document.getElementById('myImage').src='steps/9.png';break;
+		}
+		}
+		</script>
 	</head>
 
 	<body>
-
-	<div class="nav">
+	<div class="Home">
+			<a href="index.html" >Home</a>
+	</div>
+	<div class="imga">
+		<imga>
+			<img src = "Art-of-Building-logo-768x214.png">
+		</imga>
+	</div>
+	<div class="nav">  
 		<nav>
-            <ul class="navigate_Li">
-                <li> <a href="index.html"> Design </a> </li>
-                <li> <a href="lab3_2.html"> Build </a> </li>
-                <li> <a href="lab3_3.html"> Manage </a> </li>
+            <table border = "0">
+				<tr>
+				<th width = "300" ><a href="design.html"> design </a></th>
+				<th width = "300"><a href="build.html"> build </a></th>
+				<th width = "300"><a href="manage.html"> manage </a></th>
+				</tr>
+                <tr>
+				<td width = "300"><img src = "AOB-icons-01-150x150.png">
+				<td width = "300"><img src = "house-icon-01-150x150.png">
+				<td width = "300"><img src = "AOB-icons-03-150x150.png">
+				</tr>
             </ul>
 		</nav>
-		<div class="Register">
-			<a href="register.html" >Home</a>
-		</div>
 	</div>
-
-
-        
+	<div class="bld">
+		<bld>
+			<img id="myImage" src="steps/1.png">
+			<button onclick="build(x);x=x+1;" ;>Build</button>
+		</bld>
 	</div>
 
 	

@@ -1,22 +1,55 @@
 body {
-background-image: "Superb-modern-interior-design-HD-wallpapers.jpg"; /* Путь к фоновому изображению */
-background-color: #000000; /* Цвет фона */
+width:1600;
+height:900;
+background-image: url(Superb-modern-interior-design-HD-wallpapers.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-color: #131415; /* Цвет фона */
 margin: 0;
 padding: 0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-style: normal;
+color: #000000;
+font-size: 15px;
+letter-spacing: 0px;
+line-height: 1.5;
 }
 .H1 { margin-top: 0; }
-.Register {
+.Home {
 	float: right;
 	margin-right: 20px;
 	margin-top: 5px;
 }
 .nav {
-	height: 50px;
-background: ##20B2AA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #FF00FF, ##20B2AA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #FF00FF, ##20B2AA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position:relative;
+top: 00px;
+margin-left: auto;
+margin-right: auto;
+width:35%;
+height: 200px;
 }
+.bld{
+position:relative;
+top: 700px;
+margin-left: auto;
+margin-right: auto;
+width:52%;
 
+}
+.pag{
+position:relative;
+top: 300px;
+margin-left: auto;
+margin-right: auto;
+width:700px;
+
+}
+.imga {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:35%
+}
 .navigate_Li li{
 
 	list-style: none;
@@ -34,7 +67,7 @@ background: linear-gradient(to bottom, #FF00FF, ##20B2AA); /* W3C, IE 10+/ Edge,
 
 }
 .Table{
-		background: #23074d;  /* fallback for old browsers */
+background: #23074d;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #23074d, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #23074d, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 

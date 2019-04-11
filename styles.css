@@ -1,69 +1,53 @@
- table, caption {
-
-        cellspacing:2;
-       
-        
-        font-family: "heebo", cursive;
-       }
-
-caption{
-	font-size: 30px;
+body {
+width:1600;
+height:900;
+background-color: #131415; /* Цвет фона */
+margin: 0;
+padding: 0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-style: normal;
+color: #FFFFFF;
+font-size: 15px;
+letter-spacing: 0px;
+line-height: 1.5;
 }
+.H1 { margin-top: 0; }
+.Home {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+.pag{
+position:relative;
+top: 100px;
 
- table , th, td{
-       	border: 2px solid orange;
-       	border-color: white;
-       }
- table{
-       width: 700px;
+}
+.imga {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:35%
+}
+.navigate_Li li{
 
- }
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 5px 4%;
 
-  th{
-  	text-align: left;
-  }
+}
+.MainText {
+	font-size: 20px;
+	background: ##20B2AA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FF00FF, ##20B2AA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FF00FF, ##20B2AA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
- td, th {
-           align: left;
-           padding: 5px;
-           color: white;
-           }
 
- div    {
-    	align:justify;
-    	position: center;
-    	width:700px;
-    	background-image: url(199042.jpg);
-    	margin: auto;
-        margin-top: 0;
-        padding: 10px;
+}
+.Table{
+background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #23074d, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #23074d, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-           }
-
-  body {
-  	background-image: "Superb-modern-interior-design-HD-wallpapers.jpg"; /* Путь к фоновому изображению */
-	background-color: #000000; /* Цвет фона */
-  }
-
-  p {
-  	color: White;
-  	font-size: 25px;
-  	font-weight: bold;
-  	text-align: justify;
-  	font-family: "heebo", cursive;
-  	
-  }
-
-  h1{
-  	text-align: center;
-  	color: Black;
-  	font-weight: 40px;
-  	font-family: "heebo", cursive;
-  }
-
- label{
-    color: red;
-    font-weight: 40px;
-    font-family: "heebo", cursive;
-
- }
+}
+<!-- cleare: both -->
